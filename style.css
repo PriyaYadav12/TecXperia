@@ -1,0 +1,298 @@
+/* body{
+  overflow-x: hidden;
+} */
+/* title */
+#nav-title{
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('newChip.jpg') no-repeat;
+    background-size: 100% 100% ;
+    height: 100vh;
+
+}
+
+.logo{
+  text-align: center;
+  margin: 0.188rem 1.25rem 0.188rem 6.25rem;
+  display: block;
+  width: 10rem;
+  height: 10rem;
+}
+
+.nav-link{
+  text-align:center;
+  padding:0 0.25rem;
+  margin-right: 0.6rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+
+
+}
+.ul-main{
+  margin-left: 25rem;
+}
+
+.logo2{
+  position: relative;
+  left:45rem;
+  top:5rem;
+  height: 20rem;
+
+}
+
+/* about-us */
+#about-us{
+  background-color: #1a508b;
+  width: 100vw;
+  height: 100vh;
+}
+.about-row{
+  background-color: #f8f1f1;
+  width: 80vw;
+  height: 80vh;
+  position: relative;
+  top: 5rem;
+  left:8rem;
+  border-radius: 1rem;
+}
+.team-img{
+  width: 17rem;
+  height: 13rem;
+  margin:1rem 0 0 5rem;
+}
+figcaption{
+  margin:0.5rem 0 0 5rem;
+  font-weight: bold;
+}
+.about-text{
+  color:#1a508b;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-top: 2rem;
+
+}
+.about-li{
+  padding-bottom: 0.4rem;
+  font-size: 1.3rem;
+  list-style-type: square;
+  text-align: justify;
+
+}
+
+/* service */
+#service{
+  background-color: #fff;
+  height: 150vh;
+}
+
+h2{
+  color:#1a508b;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 2rem 0;
+}
+.service-col{
+  border: 3px solid #1a508b;
+  margin:0 1.5rem;
+  height: 30rem;
+}
+
+.service-col2{
+  position: relative;
+  top: 10rem;
+}
+h3{
+  color:#1a508b;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem 0;
+}
+.service-li{
+  padding-bottom: 0.2rem;
+  font-size: 1.2rem;
+  list-style-type: square;
+  text-align: justify;
+
+}
+
+/* vision-mision */
+#vision-mision{
+  background-color: #1a508b;
+  width: 100vw;
+
+}
+.vision-h3, .mision-h3{
+  color:#fff;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-top: 2rem;
+  text-align: left;
+  margin-left: 2rem;
+}
+p{
+  text-align: justify;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+.robot-img{
+  width: 100%;
+  height: 100%;
+}
+
+#footer{
+  height: 5rem;
+}
+.footer-img{
+  padding: 1rem;
+  margin-left: 3rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+
+
+/* media query */
+@media only screen and (max-width: 960px){
+  .logo{
+    text-align: center;
+    margin: 0.1rem 0 0.188rem 2rem;
+    display: block;
+    width: 9rem;
+    height: 9rem;
+  }
+
+  .nav-link{
+    text-align:center;
+    padding:0;
+    margin-right: 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+
+
+  }
+  .ul-main{
+
+    margin-left: 0;
+  }
+
+  .logo2{
+    position: relative;
+    left:13rem;
+    top:5rem;
+    height: 15rem;
+
+  }
+
+  /* about-us */
+  #about-us{
+    background-color: #1a508b;
+    width: 100vw;
+    height: 150vh;
+  }
+  .about-row{
+    background-color: #f8f1f1;
+    width: 90vw;
+    height: auto;
+    position: relative;
+    top: 5rem;
+    left:2rem;
+    border-radius: 1rem;
+  }
+  .team-img{
+    width: 10rem;
+    height: 10rem;
+    margin:1rem 0 0 8rem;
+  }
+  figcaption{
+    margin:0.5rem 0 0 5rem;
+    font-weight: bold;
+  }
+  .about-text{
+    color:#1a508b;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 0.5rem;
+
+  }
+  .about-li{
+    padding-bottom: 0.4rem;
+    font-size: 1.1rem;
+    list-style-type: square;
+    text-align: justify;
+
+  }
+
+  /* service */
+  #service{
+    background-color: #fff;
+    height: 300vh;
+  }
+
+  h2{
+    color:#1a508b;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .service-col{
+    border: 3px solid #1a508b;
+    margin:0 1.5rem;
+    height: 30rem;
+  }
+
+  .service-col2{
+    position: relative;
+    top: 1rem;
+  }
+  h3{
+    color:#1a508b;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  .service-li{
+    padding-bottom: 0.2rem;
+    font-size: 1.1rem;
+    list-style-type: square;
+    text-align: justify;
+
+  }
+
+  /* vision-mision */
+  #vision-mision{
+    background-color: #1a508b;
+    width: 150vw;
+
+  }
+  .vision-h3, .mision-h3{
+    color:#fff;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 2rem;
+    text-align: left;
+    margin-left: 2rem;
+  }
+  p{
+    text-align: justify;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+  }
+  .robot-img{
+    width: 100%;
+    height: 100%;
+  }
+
+  #footer{
+    height: 5rem;
+  }
+  .footer-img{
+    padding: 1rem;
+    margin-left: 2rem;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
+
+}
